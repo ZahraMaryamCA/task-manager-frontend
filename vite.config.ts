@@ -53,6 +53,8 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      // Ensure _redirects file is copied to build directory
+      copyPublicDir: true,
     },
     server: {
       port: 3000,
