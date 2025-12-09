@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";  // your backend URL
+const API_BASE = "https://personal-task-manager-backend-mrkg.onrender.com/api";  // deployed backend URL
 
 export const api = {
   getToken() {
